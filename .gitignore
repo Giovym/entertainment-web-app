@@ -25,3 +25,6 @@ dist-ssr
 
 
 README.md
+.eslintrc.cjs
+public
+
