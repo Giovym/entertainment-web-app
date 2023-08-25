@@ -10,19 +10,22 @@ import TvSeries from './pages/TvSeries';
 import Favorites from './pages/Favorites';
 import Error from './pages/Error';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Root />,
-    errorElement: <Error />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: '/movies', element: <Movies /> },
-      { path: '/tvseries', element: <TvSeries /> },
-      { path: '/favorites', element: <Favorites /> },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Root />,
+      errorElement: <Error />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: '/movies', element: <Movies /> },
+        { path: '/tvseries', element: <TvSeries /> },
+        { path: '/favorites', element: <Favorites /> },
+      ],
+    },
+  ],
+  { basename: import.meta.env.DEV ? '/' : '/entertainment-web-app/' }
+);
 
 const App = () => {
   return (

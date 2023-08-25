@@ -5,8 +5,8 @@ const ErrorPage = () => {
     <>
       <Navbar />
       <main>
-        <h1>An error occurred!</h1>
-        <p>Could not find this page!</p>
+        <h1 className='text-white'>An error occurred!</h1>
+        <p className='text-white'>Could not find this page!</p>
       </main>
     </>
   );
