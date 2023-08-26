@@ -1,12 +1,12 @@
 import { NavLink } from 'react-router-dom';
 
-import { ReactComponent as Logo } from '../assets/logo.svg';
-import { ReactComponent as IconNavHome } from '../assets/icon-nav-home.svg';
-import { ReactComponent as IconNavMovies } from '../assets/icon-nav-movies.svg';
-import { ReactComponent as IconNavTvSeries } from '../assets/icon-nav-tv-series.svg';
-import { ReactComponent as IconNavBookmark } from '../assets/icon-nav-bookmark.svg';
+import { ReactComponent as Logo } from '../../public/assets/logo.svg';
+import { ReactComponent as IconNavHome } from '../../public/assets/icon-nav-home.svg';
+import { ReactComponent as IconNavMovies } from '../../public/assets/icon-nav-movies.svg';
+import { ReactComponent as IconNavTvSeries } from '../../public/assets/icon-nav-tv-series.svg';
+import { ReactComponent as IconNavBookmark } from '../../public/assets/icon-nav-bookmark.svg';
 
-import ImageAvatar from '../assets/image-avatar.png';
+import ImageAvatar from '../../public/assets/image-avatar.png';
 
 const Navbar = () => {
   return (

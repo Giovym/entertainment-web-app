@@ -1,12 +1,12 @@
 import { useApi } from '../../context/ApiContext';
 import { useSearchBar } from '../../context/SearchBarContext';
 
-import IconBookmarkEmpty from '../../assets/icon-bookmark-empty.svg';
-import IconBookmarkFull from '../../assets/icon-bookmark-full.svg';
-import IconMovies from '../../assets/icon-category-movie.svg';
-import IconTvSeries from '../../assets/icon-category-tv.svg';
-import IconPoint from '../../assets/icon-point.svg';
-import IconPlay from '../../assets/icon-play.svg';
+import IconBookmarkEmpty from '../../../public/assets/icon-bookmark-empty.svg';
+import IconBookmarkFull from '../../../public/assets/icon-bookmark-full.svg';
+import IconMovies from '../../../public/assets/icon-category-movie.svg';
+import IconTvSeries from '../../../public/assets/icon-category-tv.svg';
+import IconPoint from '../../../public/assets/icon-point.svg';
+import IconPlay from '../../../public/assets/icon-play.svg';
 
 const Recommended = () => {
   const { searchQuery } = useSearchBar();
@@ -83,10 +83,10 @@ const Recommended = () => {
                   style={{
                     backgroundImage: `url(${
                       window.innerWidth < 640
-                        ? `src/${item.thumbnail.regular.small}`
+                        ? `${item.thumbnail.regular.small}`
                         : window.innerWidth < 768
-                        ? `src/${item.thumbnail.regular.medium}`
-                        : `src/${item.thumbnail.regular.large}`
+                        ? `${item.thumbnail.regular.medium}`
+                        : `${item.thumbnail.regular.large}`
                     })`,
                   }}
                 ></div>

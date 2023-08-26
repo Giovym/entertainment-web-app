@@ -1,6 +1,6 @@
 import { useSearchBar } from '../context/SearchBarContext';
 
-import { ReactComponent as IconSearch } from '../assets/icon-search.svg';
+import { ReactComponent as IconSearch } from '../../public/assets/icon-search.svg';
 
 const SearchBar = () => {
   const { searchQuery, setSearchQuery } = useSearchBar();
