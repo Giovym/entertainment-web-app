@@ -15,7 +15,7 @@
 
 ### Screenshot
 
-![](https://github.com/Giovym/entertainment-web-app/blob/main/public/assets/Screenshot%20.png)
+![](https://github.com/Giovym/entertainment-web-app/blob/main/public/assets/Screenshot.png)
 
 ### Links
 
